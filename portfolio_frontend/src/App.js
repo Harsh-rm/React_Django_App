@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Home"; 
 import AnimationPage from "./AnimationPage"; 
 
-function App() {
+function App({ basename }) {
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/animation" element={<AnimationPage />} />

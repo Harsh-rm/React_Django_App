@@ -2,7 +2,6 @@
   "name": "portfolio_frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Harsh-rm.github.io/React_Django_App",
 
   "dependencies": {
     "@mediapipe/tasks-vision": "^0.10.22-rc.20250304",
